@@ -39,9 +39,8 @@ jobs:
           BARK: ${{ secrets.BARK }}
           PUSHPLUS: ${{ secrets.PUSHPLUS }}
       run: |
-        python JDRouterPushNQBG.py
-        python JDRouterPushOOJF.py
-        python JDRouterPushOOJT.py
-        python JDRouterPushOOOJFF.py
-        python JDRouterPushWSXY.py
+        python JDRouterPush.py
+        python JDRouterPushNQZY.py
+        
+        
      
